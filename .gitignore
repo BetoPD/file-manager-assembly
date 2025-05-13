@@ -1,0 +1,24 @@
+# Ignore object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.bin
+*.elf
+
+# Ignore assembler listing and map files
+*.lst
+*.map
+
+# Ignore core dumps
+core
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.bak
+.DS_Store
+
+# Ignore build directories
+/build/
+/dist/
